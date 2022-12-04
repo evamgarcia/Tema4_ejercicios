@@ -38,6 +38,6 @@ def metodo_newton(x0, tol):
 
 # comparar 
 
-print("resultado de la biseecion: ", calcular_biseccion(10,10, 0.0001))
-print("resultado de la secante: ", calcular_secante(10,10, 0.0001))
-print("resultado del metodo newton: ", metodo_newton(10,10, 0.0001))
+print("resultado de la biseecion: ", calcular_biseccion(100,10, 0.0001))
+print("resultado de la secante: ", calcular_secante(100,10, 0.0001))
+print("resultado del metodo newton: ", metodo_newton(100,10, 0.0001))
